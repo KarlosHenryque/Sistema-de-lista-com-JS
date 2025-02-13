@@ -1,0 +1,61 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(133, 191, 214, 0.645);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+   justify-content: center;
+   align-items: center;
+   max-width: 400px;
+   max-height: 400px;
+   background-color: white;
+   padding: 50px;
+   border-radius: 15px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 33px;
+}
+
+ p {
+    margin-bottom: 1rem;
+ }
+
+
+.apagar {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 150px; /* Empurra o botão para o lado direito */
+    text-align: right; 
+}
+
+.apagar:hover {
+    background: darkred;
+}
+
+
+li {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 25px;
+}
